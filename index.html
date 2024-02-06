@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Snake Game!</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="left-div">
+
+            <div id="score-div">
+                <label> Score: </label>
+                <label id="score"></label>
+            </div>
+
+            <!-- Contrôles de jeu pour les mobiles et tablettes -->
+
+        </div>
+
+        <div id="game-container">
+            <canvas id="game-canvas"></canvas>
+        </div>
+
+        <audio controls autoplay id="theme-audio">
+            <source src="resources/theme.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="controls">
+        <button id="up-button">▲</button><br>
+        <button id="left-button">◀</button>
+        <button id="right-button">▶</button><br>
+        <button id="down-button">▼</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
